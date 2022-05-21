@@ -1,0 +1,184 @@
+:root {
+  --orange: #ff9646;
+  --hoverOrange: #e98539;
+  --selectRed: #fcd8b0;
+  --green: #328f3a;
+  --black: #231f20;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  font-family: lexend;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bImage {
+  border-radius: 12px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.pageB:link {
+  font-size: 25px;
+  color: white;
+}
+
+.pageB:visited {
+  font-size: 25px;
+  color: white;
+}
+
+.dlB {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.dlB:link {
+  color: var(--green);
+}
+
+.dlB:visited {
+  color: var(--green);
+}
+
+.footerLinkB:link {
+  color: var(--black);
+}
+
+.footerLinkB:visited {
+  color: var(--black);
+}
+
+.newBTitle {
+  font-size: 37px;
+  color: var(--orange);
+}
+
+.newBImage {
+  margin-bottom: 5px;
+}
+
+.newDlB {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.newDlB:link {
+  font-size: 20px;
+  color: var(--green);
+}
+
+.newDlB:visited {
+  font-size: 20px;
+  color: var(--green);
+}
+
+::selection {
+  background: var(--selectRed);
+}
+
+::-moz-selection {
+  /* Firefox */
+  background: var(--selectRed);
+}
+
+/* nav bar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--orange);
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: var(--hoverOrange);
+}
+
+.active {
+  background-color: var(--hoverOrange);
+}
+
+.line {
+  width: 99%;
+  border-color: var(--orange);
+}
+
+.footerB {
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+/* */
+
+/* banner css */
+
+div.bannerBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.fullBannerBox {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bannerTitle {
+  font-size: 25px;
+  color: var(--orange);
+}
+
+/* */
+
+@font-face {
+  font-family: lexend;
+  src: url("LexendDeca-Regular.ttf");
+}
