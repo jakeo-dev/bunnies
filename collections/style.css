@@ -18,11 +18,19 @@ img {
   margin-right: auto;
 }
 
-div.box {
+.box {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 75px;
+  margin-top: 75px;
+}
+
+.top {
   margin-top: 50px;
+}
+
+.bottom {
   margin-bottom: 50px;
 }
 
@@ -149,7 +157,7 @@ li a:hover:not(.active) {
 
 /* collections css */
 
-div.collectionBox {
+.collectionBox {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -164,9 +172,11 @@ div.collectionBox {
   margin-bottom: 10px;
 }
 
-div.fullCollectionBox {
-  margin-top: 50px;
-  margin-bottom: 50px;
+.fullCollectionBox {
+  margin-right: 30px;
+}
+.fullCollectionBox:last-child {
+  margin-right: 0px;
 }
 
 .collectionTitle {
