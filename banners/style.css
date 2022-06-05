@@ -12,6 +12,14 @@ body {
   font-family: lexend;
 }
 
+.small {
+  display: block;
+}
+
+.large {
+  display: none;
+}
+
 img {
   display: block;
   margin-left: auto;
@@ -33,27 +41,35 @@ div.box {
   margin-bottom: 10px;
 }
 
+p {
+  font-size: 30px;
+}
+
 a:hover {
   font-weight: bold;
 }
 
-.pageB:link {
-  font-size: 25px;
+.pageB {
+  font-size: 45px;
   color: white;
 }
 
 .pageB:visited {
-  font-size: 25px;
   color: white;
 }
 
 .dlB {
+  font-size: 30px;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
+}
+
+.dlB:hover {
+  font-weight: bold;
 }
 
 .dlB:link {
@@ -79,25 +95,6 @@ a:hover {
 
 .newBImage {
   margin-bottom: 5px;
-}
-
-.newDlB {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none;
-}
-
-.newDlB:link {
-  font-size: 20px;
-  color: var(--green);
-}
-
-.newDlB:visited {
-  font-size: 20px;
-  color: var(--green);
 }
 
 ::selection {
@@ -156,8 +153,8 @@ li a:hover:not(.active) {
 
 /* banner css */
 
-div.bannerBox {
-  display: flex;
+.bannerBox {
+  display: block;
   align-items: center;
   justify-content: center;
   margin: 0px;
@@ -166,14 +163,23 @@ div.bannerBox {
   margin-right: auto;
 }
 
-div.fullBannerBox {
+.fullBannerBox {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 75px;
 }
 
 .bannerTitle {
-  font-size: 25px;
+  font-size: 35px;
+  margin: 0px;
   color: var(--orange);
+}
+
+.smallBannerBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  margin-bottom: 35px;
 }
 
 /* */
@@ -181,4 +187,40 @@ div.fullBannerBox {
 @font-face {
   font-family: lexend;
   src: url("LexendDeca-Regular.ttf");
+}
+
+/* 1100px and up */ /* computer screens */
+@media only screen and (min-width: 1100px) {
+  .small {
+    display: none;
+  }
+
+  .large {
+    display: block;
+  }
+
+  p,
+  .dlB {
+    font-size: initial;
+  }
+
+  .pageB {
+    font-size: 25px;
+  }
+
+  .bannerBox {
+    display: flex;
+  }
+
+  .fullBannerBox {
+    margin-bottom: 50px;
+  }
+
+  .bannerTitle {
+    font-size: 25px;
+  }
+
+  .smallBannerBox {
+    margin-bottom: initial;
+  }
 }

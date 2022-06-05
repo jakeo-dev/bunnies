@@ -12,13 +12,21 @@ body {
   font-family: lexend;
 }
 
+.small {
+  display: block;
+}
+
+.large {
+  display: none;
+}
+
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-div.box {
+.box {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,27 +34,31 @@ div.box {
   margin-bottom: 55px;
 }
 
-a:hover {
-  font-weight: bold;
+p {
+  font-size: 30px;
 }
 
-.pageB:link {
-  font-size: 25px;
-  color: white;
-}
-
-.pageB:visited {
-  font-size: 25px;
-  color: white;
-}
-
-.dlB {
+a {
+  font-size: 30px;
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
   -khtml-user-select: none; /* Konqueror HTML */
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* Internet Explorer/Edge */
   user-select: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.pageB {
+  font-size: 45px;
+  color: white;
+}
+
+.pageB:visited {
+  color: white;
 }
 
 .dlB:link {
@@ -55,15 +67,6 @@ a:hover {
 
 .dlB:visited {
   color: var(--green);
-}
-
-.dlAltB {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none;
 }
 
 .dlAltB:link {
@@ -89,25 +92,6 @@ a:hover {
 
 .newBImage {
   margin-bottom: 5px;
-}
-
-.newDlB {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none;
-}
-
-.newDlB:link {
-  font-size: 20px;
-  color: var(--green);
-}
-
-.newDlB:visited {
-  font-size: 20px;
-  color: var(--green);
 }
 
 .bImageDiv {
@@ -176,4 +160,27 @@ li a:hover:not(.active) {
 @font-face {
   font-family: lexend;
   src: url("LexendDeca-Regular.ttf");
+}
+
+/* 1100px and up */ /* computer screens */
+@media only screen and (min-width: 1100px) {
+  .small {
+    display: none;
+  }
+
+  .large {
+    display: block;
+  }
+
+  .pageB {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: initial;
+  }
+
+  a {
+    font-size: initial;
+  }
 }
