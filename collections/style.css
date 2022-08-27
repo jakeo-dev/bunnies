@@ -1,4 +1,5 @@
 :root {
+  --lightOrange: #ffc79d;
   --orange: #ff9646;
   --hoverOrange: #e98539;
   --selectRed: #fcd8b0;
@@ -144,6 +145,7 @@ li a:hover:not(.active) {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--lightOrange);
   width: 690px;
   padding: 10px;
   border: 4px solid var(--orange);
