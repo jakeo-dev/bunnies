@@ -6,11 +6,11 @@ function mouseOutWB() {
     document.getElementById("watermelonBunny").src = "watermelon-bunny.png";
 }
 
-function mouseOverSB() {
+function mouseOverCB() {
     document.getElementById("santaBunny").src = "christmas-bunny.png";
 }
 
-function mouseOutSB() {
+function mouseOutCB() {
     document.getElementById("santaBunny").src = "santa-bunny.png";
 }
 
@@ -47,17 +47,17 @@ function mouseOutLB() {
 }
 
 function mouseOverEB() {
-    document.getElementById("easterBunny").src = "easter-bunny-no-eggs.png";
-}
-
-function mouseOutEB() {
     document.getElementById("easterBunny").src = "easter-bunny.png";
 }
 
-function mouseOverFB() {
-    document.getElementById("flowerBunny").src = "flower-bunny-no-flowers.png";
+function mouseOutEB() {
+    document.getElementById("easterBunny").src = "easter-bunny-no-eggs.png";
 }
 
-function mouseOutFB() {
-    document.getElementById("flowerBunny").src = "flower-bunny.png";
+function mouseOverSB() {
+    document.getElementById("sunnyBunny").src = "sunny-bunny-with-sun.png";
+}
+
+function mouseOutSB() {
+    document.getElementById("sunnyBunny").src = "sunny-bunny.png";
 }

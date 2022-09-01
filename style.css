@@ -61,11 +61,13 @@ a:hover {
   color: white;
 }
 
-.dlB:link {
+.dlB:link,
+.tempBDownload:link {
   color: var(--green);
 }
 
-.dlB:visited {
+.dlB:visited,
+.tempBDownload:visited {
   color: var(--green);
 }
 
@@ -90,13 +92,13 @@ a:hover {
   color: var(--orange);
 }
 
-.newBImage {
+.tempBImage {
   margin-bottom: 5px;
 }
 
 .bImageDiv {
-  margin-left: 18px;
-  margin-right: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .bImage {
