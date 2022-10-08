@@ -6,14 +6,6 @@ function mouseOutWB() {
     document.getElementById("watermelonBunny").src = "watermelon-bunny.png";
 }
 
-function mouseOverCB() {
-    document.getElementById("santaBunny").src = "christmas-bunny.png";
-}
-
-function mouseOutCB() {
-    document.getElementById("santaBunny").src = "santa-bunny.png";
-}
-
 function mouseOverDB() {
     document.getElementById("dreamBunny").src = "white-dream-bunny.png";
 }
@@ -52,12 +44,4 @@ function mouseOverEB() {
 
 function mouseOutEB() {
     document.getElementById("easterBunny").src = "easter-bunny-no-eggs.png";
-}
-
-function mouseOverSB() {
-    document.getElementById("sunnyBunny").src = "sunny-bunny-with-sun.png";
-}
-
-function mouseOutSB() {
-    document.getElementById("sunnyBunny").src = "sunny-bunny.png";
 }
