@@ -140,8 +140,8 @@ li a:hover:not(.active) {
 }
 
 .line {
-  width: 99%;
-  border-color: var(--orange);
+  width: 90%;
+  border: 1px solid var(--orange);
 }
 
 .footerB {
