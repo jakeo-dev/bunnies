@@ -9,7 +9,7 @@
 body {
   text-align: center;
   margin: 0;
-  font-family: lexend;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .small {
@@ -158,11 +158,6 @@ li a:hover:not(.active) {
 }
 
 /* */
-
-@font-face {
-  font-family: lexend;
-  src: url("LexendDeca-Regular.ttf");
-}
 
 /* 1100px and up */ /* computer screens */
 @media only screen and (min-width: 1100px) {
