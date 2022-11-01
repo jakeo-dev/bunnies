@@ -37,3 +37,11 @@ function mouseOverEB() {
 function mouseOutEB() {
     document.getElementById('easterBunny').src = 'images/easter-bunny-no-eggs.png';
 }
+
+function mouseOverSB() {
+    document.getElementById('skeletonBunny').src = 'images/skull-bunny.png';
+}
+
+function mouseOutSB() {
+    document.getElementById('skeletonBunny').src = 'images/skeleton-bunny.png';
+}
