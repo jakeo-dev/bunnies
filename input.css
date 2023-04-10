@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .dlB {
+    @apply text-green-600 hover:text-green-700 active:text-black underline decoration-2 hover:decoration-1 hover:decoration-wavy;
+  }
+
+  .bImageDiv {
+    @apply align-middle items-center;
+  }
+
+  .box {
+    @apply grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-14 px-6 md:px-36;
+  }
+
+  .bImage {
+    @apply mx-auto w-40 md:w-52;
+  }
+
+  .line {
+    @apply border-b-2 border-orange-400 my-14 w-5/6 mx-auto;
+  }
+}

@@ -1,433 +1,135 @@
 <html>
 
 <head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Colorful Bunnies: Collections</title>
-    <link href='white-bunny.ico' rel='shortcut icon' type='image/ico'>
-    <link href='collections/style.css' rel='stylesheet'>
-    <link href='https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap' rel='stylesheet'>
+    <link href='../style.css' rel='stylesheet'>
+    <link
+        href='https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap'
+        rel='stylesheet'>
 
-    <meta property='og:title' content='Colorful Bunnies: Collections'>
+    <meta property='og:title' content='Colorful Bunnies'>
     <meta property='og:description' content='&#128048; Download some colorful bunnies'>
     <meta name='theme-color' content='#ff9646'>
 </head>
 
-<body>
+<body class='text-center font-LexendDeca'>
 
-    <ul>
-        <li><a class='pageB' href='https://bunnies.jorch.xyz'>Bunnies</a></li>
-        <li><a class='pageB' href='https://bunnies.jorch.xyz/collections'>Collections</a></li>
-        <li><a class='pageB' href='https://bunnies.jorch.xyz/banners'>Banners</a></li>
-    </ul>
+    <header class='bg-orange-400 flex text-xl md:text-2xl text-white sticky top-0 right-0'>
+        <a class='hover:bg-orange-500 py-3 px-4' href='/'>Bunnies</a>
+        <a class='hover:bg-orange-500 py-3 px-4' href='/collections'>Collections</a>
+        <a class='hover:bg-orange-500 py-3 px-4' href='/banners'>Banners</a>
+    </header>
 
-    <div class='large'>
+    <div class='grid md:grid-cols-2 xl:grid-cols-3 gap-y-14 px-6 md:px-36 pt-12'>
 
-        <div class='box top'>
+        <div class='bImageDiv'>
+            <h1 class='text-xl text-orange-400'>Noble Bunnies (30)</h1>
 
-            <div class='fullCollectionBox'>
-
-                <h1 class='collectionTitle'>Noble Bunnies (30)</h1>
-
-                <div class='collectionBox'>
-
-                    <div>
-                        <img src='images/red-bunny-2022.png' alt='Red Bunny' class='bImage' width='110' height='110'>
-                    </div>
-                    <div>
-                        <img src='images/earth-bunny.png' alt='Light Blue and Green Bunny for Earth Day' class='bImage'
-                            width='110' height='110'>
-                    </div>
-                    <div>
-                        <img src='images/blurple-bunny.png' alt='Blurple Bunny for Discord' class='bImage' width='110'
-                            height='110'>
-                    </div>
-
-                </div>
-
-                <div>
-                    <a class='dlB' href='noble-bunnies.zip' download>Download Collection</a>
-                </div>
-
+            <div class='flex align-middle items-center rounded-xl border-orange-300 border-2'>
+                <img src='images/red-bunny-2022.png' alt='Red Bunny' class='bImage' width='110' height='110'>
+                <img src='images/earth-bunny.png' alt='Light Blue and Green Bunny for Earth Day' class='bImage'
+                    width='110' height='110'>
+                <img src='images/blurple-bunny.png' alt='Blurple Bunny for Discord' class='bImage' width='110'
+                    height='110'>
             </div>
 
-            <div class='fullCollectionBox'>
-
-                <h1 class='collectionTitle'>Colorful Bunnies - 2022 (8)</h1>
-
-                <div class='collectionBox'>
-
-                    <div>
-                        <img src='images/red-bunny-2022.png' alt='Red Bunny' class='bImage' width='110' height='110'>
-                    </div>
-                    <div>
-                        <img src='images/orange-bunny-2022.png' alt='Orange Bunny' class='bImage' width='110'
-                            height='110'>
-                    </div>
-                    <div>
-                        <img src='images/yellow-bunny-2022.png' alt='Yellow Bunny' class='bImage' width='110'
-                            height='110'>
-                    </div>
-
-                </div>
-
-                <div>
-                    <a class='dlB' href='colorful-bunnies-2022.zip' download>Download Collection</a>
-                </div>
-
-            </div>
-
-            <div class='fullCollectionBox'>
-
-                <h1 class='collectionTitle'>Colorful Bunnies - 2021 (8)</h1>
-
-                <div class='collectionBox'>
-
-                    <div>
-                        <img src='images/red-bunny-2021.png' alt='Red Bunny' class='bImage' width='110' height='110'>
-                    </div>
-                    <div>
-                        <img src='images/orange-bunny-2021.png' alt='Orange Bunny' class='bImage' width='110'
-                            height='110'>
-                    </div>
-                    <div>
-                        <img src='images/yellow-bunny-2021.png' alt='Yellow Bunny' class='bImage' width='110'
-                            height='110'>
-                    </div>
-
-                </div>
-
-                <div>
-                    <a class='dlB' href='colorful-bunnies-2021.zip' download>Download Collection</a>
-                </div>
-
-            </div>
-
+            <a class='dlB' href='noble-bunnies.zip' download>Download Collection</a>
         </div>
 
-        <div class='box'>
+        <div class='bImageDiv'>
+            <h1 class='text-xl text-orange-400'>Colorful Bunnies - 2022 (8)</h1>
 
-            <div class='fullCollectionBox'>
-
-                <h1 class='collectionTitle'>Holiday Bunnies (17)</h1>
-
-                <div class='collectionBox'>
-
-                    <div>
-                        <img src='images/american-bunny.png' alt='Red, White, and Blue Bunny for Independence Day'
-                            class='bImage' width='110' height='110'>
-                    </div>
-                    <div>
-                        <img src='images/santa-bunny.png' alt='Red and Green Bunny with Santa Hat for Christmas'
-                            class='bImage' width='110' height='110'>
-                    </div>
-                    <div>
-                        <img src='images/halloween-bunny.png' alt='Orange and Brown Bunny for Halloween' class='bImage'
-                            width='110' height='110'>
-                    </div>
-
-                </div>
-
-                <div>
-                    <a class='dlB' href='holiday-bunnies.zip' download>Download Collection</a>
-                </div>
-
+            <div class='flex align-middle items-center rounded-xl border-orange-300 border-2'>
+                <img src='images/red-bunny-2022.png' alt='Red Bunny' class='bImage' width='110' height='110'>
+                <img src='images/orange-bunny-2022.png' alt='Orange Bunny' class='bImage' width='110' height='110'>
+                <img src='images/yellow-bunny-2022.png' alt='Yellow Bunny' class='bImage' width='110' height='110'>
             </div>
 
-            <div class='fullCollectionBox'>
-
-                <h1 class='collectionTitle'>Costumed Bunnies (8)</h1>
-
-                <div class='collectionBox'>
-
-                    <div>
-                        <img src='images/amogus-bunny.png' alt='Red Amogus Bunny for Halloween' class='bImage'
-                            width='110' height='110'>
-                    </div>
-                    <div>
-                        <img src='images/dream-bunny.png' alt='Masked Green Bunny for Halloween' class='bImage'
-                            width='110' height='110'>
-                    </div>
-                    <div>
-                        <img src='images/pumpkin-head-bunny.png' alt='Orange and Brown Pumpkin Head Bunny for Halloween'
-                            class='bImage' width='110' height='110'>
-                    </div>
-
-                </div>
-
-                <div>
-                    <a class='dlB' href='costumed-bunnies.zip' download>Download Collection</a>
-                </div>
-
-            </div>
-
-            <div class='fullCollectionBox'>
-
-                <h1 class='collectionTitle'>Solid Bunnies (9)</h1>
-
-                <div class='collectionBox'>
-
-                    <div>
-                        <img src='images/solid-stripes-christmas-bunny.png'
-                            alt='Solid Red and Green Striped Bunny for Christmas' class='bImage' width='110'
-                            height='110'>
-                    </div>
-                    <div>
-                        <img src='images/solid-gradient-blurple-bunny.png'
-                            alt='Solid Blurple Gradient Bunny for Discord' class='bImage' width='110' height='110'>
-                    </div>
-                    <div>
-                        <img src='images/potpourri-bunny-v4.png' alt='Potpourri Bunny v4' class='bImage' width='110'
-                            height='110'>
-                    </div>
-
-                </div>
-
-                <div>
-                    <a class='dlB' href='solid-bunnies.zip' download>Download Collection</a>
-                </div>
-
-            </div>
-
+            <a class='dlB' href='colorful-bunnies-2022.zip' download>Download Collection</a>
         </div>
 
-        <div class='box bottom'>
+        <div class='bImageDiv'>
+            <h1 class='text-xl text-orange-400'>Colorful Bunnies - 2021 (8)</h1>
 
-            <div class='fullCollectionBox'>
-
-                <h1 class='collectionTitle'>Classic Bunnies (8)</h1>
-
-                <div class='collectionBox'>
-
-                    <div>
-                        <img src='images/classic-red-bunny.png' alt='Original Red Bunny' class='bImage' width='110'
-                            height='110'>
-                    </div>
-                    <div>
-                        <img src='images/classic-orange-bunny.png' alt='Original Orange Bunny' class='bImage'
-                            width='110' height='110'>
-                    </div>
-                    <div>
-                        <img src='images/classic-yellow-bunny.png' alt='Original Yellow Bunny' class='bImage'
-                            width='110' height='110'>
-                    </div>
-
-                </div>
-
-                <div>
-                    <a class='dlB' href='classic-bunnies.zip' download>Download Collection</a>
-                </div>
-
+            <div class='flex align-middle items-center rounded-xl border-orange-300 border-2'>
+                <img src='images/red-bunny-2021.png' alt='Red Bunny' class='bImage' width='110' height='110'>
+                <img src='images/orange-bunny-2021.png' alt='Orange Bunny' class='bImage' width='110' height='110'>
+                <img src='images/yellow-bunny-2021.png' alt='Yellow Bunny' class='bImage' width='110' height='110'>
             </div>
 
+            <a class='dlB' href='colorful-bunnies-2021.zip' download>Download Collection</a>
+        </div>
+
+        <div class='bImageDiv'>
+            <h1 class='text-xl text-orange-400'>Holiday Bunnies (17)</h1>
+
+            <div class='flex align-middle items-center rounded-xl border-orange-300 border-2'>
+                <img src='images/american-bunny.png' alt='Red, White, and Blue Bunny for Independence Day'
+                    class='bImage' width='110' height='110'>
+                <img src='images/santa-bunny.png' alt='Red and Green Bunny with Santa Hat for Christmas' class='bImage'
+                    width='110' height='110'>
+                <img src='images/halloween-bunny.png' alt='Orange and Brown Bunny for Halloween' class='bImage'
+                    width='110' height='110'>
+            </div>
+
+            <a class='dlB' href='holiday-bunnies.zip' download>Download Collection</a>
+        </div>
+
+        <div class='bImageDiv'>
+            <h1 class='text-xl text-orange-400'>Costumed Bunnies (8)</h1>
+
+            <div class='flex align-middle items-center rounded-xl border-orange-300 border-2'>
+                <img src='images/amogus-bunny.png' alt='Red Amogus Bunny for Halloween' class='bImage' width='110'
+                    height='110'>
+                <img src='images/dream-bunny.png' alt='Masked Green Bunny for Halloween' class='bImage' width='110'
+                    height='110'>
+                <img src='images/pumpkin-head-bunny.png' alt='Orange and Brown Pumpkin Head Bunny for Halloween'
+                    class='bImage' width='110' height='110'>
+            </div>
+
+            <a class='dlB' href='costumed-bunnies.zip' download>Download Collection</a>
+        </div>
+
+        <div class='bImageDiv'>
+            <h1 class='text-xl text-orange-400'>Solid Bunnies (9)</h1>
+
+            <div class='flex align-middle items-center rounded-xl border-orange-300 border-2'>
+                <img src='images/solid-stripes-christmas-bunny.png'
+                    alt='Solid Red and Green Striped Bunny for Christmas' class='bImage' width='110' height='110'>
+                <img src='images/solid-gradient-blurple-bunny.png' alt='Solid Blurple Gradient Bunny for Discord'
+                    class='bImage' width='110' height='110'>
+                <img src='images/potpourri-bunny-v4.png' alt='Potpourri Bunny v4' class='bImage' width='110'
+                    height='110'>
+            </div>
+
+            <a class='dlB' href='solid-bunnies.zip' download>Download Collection</a>
+        </div>
+
+        <div class='bImageDiv'>
+            <h1 class='text-xl text-orange-400'>Classic Bunnies (8)</h1>
+
+            <div class='flex align-middle items-center rounded-xl border-orange-300 border-2'>
+                <img src='images/classic-red-bunny.png' alt='Original Red Bunny' class='bImage' width='110'
+                    height='110'>
+                <img src='images/classic-orange-bunny.png' alt='Original Orange Bunny' class='bImage' width='110'
+                    height='110'>
+                <img src='images/classic-yellow-bunny.png' alt='Original Yellow Bunny' class='bImage' width='110'
+                    height='110'>
+            </div>
+
+            <a class='dlB' href='classic-bunnies.zip' download>Download Collection</a>
         </div>
 
     </div>
 
-    <div class='small'>
-
-        <div class='box top'>
-
-            <div class='fullCollectionBox'>
-
-                <h1 class='collectionTitle'>Noble Bunnies (30)</h1>
-
-                <div class='collectionBox'>
-
-                    <div>
-                        <img src='images/red-bunny-2022.png' alt='Red Bunny' class='bImage' width='230' height='230'>
-                    </div>
-                    <div>
-                        <img src='images/earth-bunny.png' alt='Light Blue and Green Bunny for Earth Day' class='bImage'
-                            width='230' height='230'>
-                    </div>
-                    <div>
-                        <img src='images/blurple-bunny.png' alt='Blurple Bunny for Discord' class='bImage' width='230'
-                            height='230'>
-                    </div>
-
-                </div>
-
-                <div>
-                    <a class='dlB' href='noble-bunnies.zip' download>Download Collection</a>
-                </div>
-
-            </div>
-
-            <div class='fullCollectionBox'>
-
-                <h1 class='collectionTitle'>Colorful Bunnies - 2022 (8)</h1>
-
-                <div class='collectionBox'>
-
-                    <div>
-                        <img src='images/red-bunny-2022.png' alt='Red Bunny' class='bImage' width='230' height='230'>
-                    </div>
-                    <div>
-                        <img src='images/orange-bunny-2022.png' alt='Orange Bunny' class='bImage' width='230'
-                            height='230'>
-                    </div>
-                    <div>
-                        <img src='images/yellow-bunny-2022.png' alt='Yellow Bunny' class='bImage' width='230'
-                            height='230'>
-                    </div>
-
-                </div>
-
-                <div>
-                    <a class='dlB' href='colorful-bunnies-2022.zip' download>Download Collection</a>
-                </div>
-
-            </div>
-
-            <div class='fullCollectionBox'>
-
-                <h1 class='collectionTitle'>Colorful Bunnies - 2021 (8)</h1>
-
-                <div class='collectionBox'>
-
-                    <div>
-                        <img src='images/red-bunny-2021.png' alt='Red Bunny' class='bImage' width='230' height='230'>
-                    </div>
-                    <div>
-                        <img src='images/orange-bunny-2021.png' alt='Orange Bunny' class='bImage' width='230'
-                            height='230'>
-                    </div>
-                    <div>
-                        <img src='images/yellow-bunny-2021.png' alt='Yellow Bunny' class='bImage' width='230'
-                            height='230'>
-                    </div>
-
-                </div>
-
-                <div>
-                    <a class='dlB' href='colorful-bunnies-2021.zip' download>Download Collection</a>
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class='box'>
-
-            <div class='fullCollectionBox'>
-
-                <h1 class='collectionTitle'>Holiday Bunnies (17)</h1>
-
-                <div class='collectionBox'>
-
-                    <div>
-                        <img src='images/american-bunny.png' alt='Red, White, and Blue Bunny for Independence Day'
-                            class='bImage' width='230' height='230'>
-                    </div>
-                    <div>
-                        <img src='images/santa-bunny.png' alt='Red and Green Bunny with Santa Hat for Christmas'
-                            class='bImage' width='230' height='230'>
-                    </div>
-                    <div>
-                        <img src='images/halloween-bunny.png' alt='Orange and Brown Bunny for Halloween' class='bImage'
-                            width='230' height='230'>
-                    </div>
-
-                </div>
-
-                <div>
-                    <a class='dlB' href='holiday-bunnies.zip' download>Download Collection</a>
-                </div>
-
-            </div>
-
-            <div class='fullCollectionBox'>
-
-                <h1 class='collectionTitle'>Costumed Bunnies (8)</h1>
-
-                <div class='collectionBox'>
-
-                    <div>
-                        <img src='images/amogus-bunny.png' alt='Red Amogus Bunny for Halloween' class='bImage'
-                            width='230' height='230'>
-                    </div>
-                    <div>
-                        <img src='images/dream-bunny.png' alt='Masked Green Bunny for Halloween' class='bImage'
-                            width='230' height='230'>
-                    </div>
-                    <div>
-                        <img src='images/pumpkin-head-bunny.png' alt='Orange and Brown Pumpkin Head Bunny for Halloween'
-                            class='bImage' width='230' height='230'>
-                    </div>
-
-                </div>
-
-                <div>
-                    <a class='dlB' href='costumed-bunnies.zip' download>Download Collection</a>
-                </div>
-
-            </div>
-
-            <div class='fullCollectionBox'>
-
-                <h1 class='collectionTitle'>Solid Bunnies (9)</h1>
-
-                <div class='collectionBox'>
-
-                    <div>
-                        <img src='images/solid-stripes-christmas-bunny.png'
-                            alt='Solid Red and Green Striped Bunny for Christmas' class='bImage' width='230'
-                            height='230'>
-                    </div>
-                    <div>
-                        <img src='images/solid-gradient-blurple-bunny.png'
-                            alt='Solid Blurple Gradient Bunny for Discord' class='bImage' width='230' height='230'>
-                    </div>
-                    <div>
-                        <img src='images/potpourri-bunny-v4.png' alt='Potpourri Bunny v4' class='bImage' width='230'
-                            height='230'>
-                    </div>
-
-                </div>
-
-                <div>
-                    <a class='dlB' href='solid-bunnies.zip' download>Download Collection</a>
-                </div>
-
-            </div>
-
-            <div class='fullCollectionBox'>
-
-                <h1 class='collectionTitle'>Classic Bunnies (8)</h1>
-
-                <div class='collectionBox'>
-
-                    <div>
-                        <img src='images/classic-red-bunny.png' alt='Original Red Bunny' class='bImage' width='230'
-                            height='230'>
-                    </div>
-                    <div>
-                        <img src='images/classic-green-bunny.png' alt='Original Orange Bunny' class='bImage' width='230'
-                            height='230'>
-                    </div>
-                    <div>
-                        <img src='images/classic-blurple-bunny.png' alt='Original Yellow Bunny' class='bImage'
-                            width='230' height='230'>
-                    </div>
-
-                </div>
-
-                <div>
-                    <a class='dlB' href='classic-bunnies.zip' download>Download Collection</a>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <br>
-
-    <hr class='line'>
-
-    <p class='footerB'><b>All images are altered versions of <a class='footerLinkB'
-                href='https://emojipedia.org/rabbit'>Google's rabbit
-                emoji</a></b></p>
+    <footer class='w-full text-center pb-12'>
+        <div class='line'></div>
+        <h3 class='text-xs md:text-base'>All bunnies are altered versions of <a
+                class='text-gray-800 hover:text-gray-900 active:text-black underline decoration-2 hover:decoration-1 hover:decoration-wavy'
+                href='https://emojipedia.org/rabbit'>Google's rabbit emoji</a></h3>
+    </footer>
 
 </body>
 
