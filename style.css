@@ -550,8 +550,8 @@ video {
 
 @media (min-width: 768px) {
   .box {
-    padding-left: 9rem;
-    padding-right: 9rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
   }
 }
 
@@ -577,6 +577,18 @@ video {
   .bImage {
     width: 13rem;
   }
+}
+
+.smallBImage {
+  margin-left: auto;
+  margin-right: auto;
+  width: 7rem;
+}
+
+.bigBImage {
+  margin-left: auto;
+  margin-right: auto;
+  width: 14rem;
 }
 
 .line {
@@ -771,6 +783,11 @@ video {
   .md\:px-36 {
     padding-left: 9rem;
     padding-right: 9rem;
+  }
+
+  .md\:px-48 {
+    padding-left: 12rem;
+    padding-right: 12rem;
   }
 
   .md\:text-2xl {
