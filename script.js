@@ -45,3 +45,11 @@ function mouseOverSB() {
 function mouseOutSB() {
     document.getElementById('skeletonBunny').src = 'images/skeleton-bunny.png';
 }
+
+function mouseOverIB() {
+    document.getElementById('gradientBlurpleBunny').src = 'images/solid-inverted-gradient-blurple-bunny.png';
+}
+
+function mouseOutIB() {
+    document.getElementById('gradientBlurpleBunny').src = 'images/solid-gradient-blurple-bunny.png';
+}
