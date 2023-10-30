@@ -53,3 +53,11 @@ function mouseOverIB() {
 function mouseOutIB() {
     document.getElementById('gradientBlurpleBunny').src = 'images/solid-gradient-blurple-bunny.png';
 }
+
+function mouseOverBatB() {
+    document.getElementById('batBunny').src = 'images/bat-bunny-with-border.png';
+}
+
+function mouseOutBatB() {
+    document.getElementById('batBunny').src = 'images/bat-bunny.png';
+}
