@@ -61,3 +61,11 @@ function mouseOverBatB() {
 function mouseOutBatB() {
     document.getElementById('batBunny').src = 'images/bat-bunny.png';
 }
+
+function mouseOverSnowB() {
+    document.getElementById('snowmanBunny').src = 'images/snowman-bunny-no-mouth.png';
+}
+
+function mouseOutSnowB() {
+    document.getElementById('snowmanBunny').src = 'images/snowman-bunny.png';
+}
