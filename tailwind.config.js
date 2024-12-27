@@ -5,8 +5,7 @@ module.exports = {
   content: ['./**/*.{html,js}'],
   theme: {
     fontFamily: {
-      'LexendDeca': ['Lexend Deca', 'sans-serif'],
-      'Calistoga': ['Calistoga', 'sans-serif']
+      'LexendDeca': ['Lexend Deca', 'sans-serif']
     },
     extend: {
     }

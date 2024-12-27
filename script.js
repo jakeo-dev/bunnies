@@ -15,7 +15,7 @@ function mouseOutBB() {
 }
 
 function mouseOverNB() {
-    document.getElementById('newYearsBunny').src = 'images/new-years-bunny-2024.png';
+    document.getElementById('newYearsBunny').src = 'images/new-years-bunny-2025.png';
 }
 
 function mouseOutNB() {
