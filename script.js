@@ -69,3 +69,11 @@ function mouseOverSnowB() {
 function mouseOutSnowB() {
     document.getElementById('snowmanBunny').src = 'images/snowman-bunny.png';
 }
+
+function mouseOverEB() {
+    document.getElementById('elphabaBunny').src = 'images/elphaba-bunny-2.png';
+}
+
+function mouseOutEB() {
+    document.getElementById('elphabaBunny').src = 'images/elphaba-bunny.png';
+}
